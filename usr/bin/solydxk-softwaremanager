@@ -1,0 +1,27 @@
+#!/usr/bin/python
+
+import os
+import sys
+import commands
+
+# Add launcher string, only when not root
+launcher = ''
+startPath = '/usr/lib/solydxk/softwaremanager/softwaremanager-args.py'
+icon = '/usr/share/solydxk/softwaremanager/icon.svg'
+if os.geteuid() > 0:
+    launcher = 'gksudo --message "<b>Please enter your password</b>"'
+    if os.path.exists('/usr/bin/kdesudo'):
+        launcher = "kdesudo -i %s -d --comment \"<b>Please enter your password</b>\"" % icon
+
+if len(sys.argv) > 1:
+    swm_file = sys.argv[1]
+    cmd = "%s python %s %s %s %s" % (launcher, startPath, swm_file, os.getenv("USER"), os.getenv("HOME"))
+    os.system(cmd)
+
+else:
+    status = 9 # status code 9 is used to restart the app
+    if os.getuid() != 0:
+        os.system("%s solydxk-softwaremanager" % launcher)
+        status = 0 # Don't call mintinstall
+    while status == 9:
+        status = int(os.system("/usr/lib/solydxk/softwaremanager/softwaremanager.py") / 256) # exit code is upper 8 bits

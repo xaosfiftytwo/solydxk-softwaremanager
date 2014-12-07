@@ -1,0 +1,1026 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-03 19:24+0100\n"
+"PO-Revision-Date: 2012-03-13 16:17+0000\n"
+"Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
+"Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-10-31 00:39+0000\n"
+"X-Generator: Launchpad (build 17211)\n"
+
+#: ../usr/lib/solydxk/softwaremanager/make-cmd:37
+#: ../usr/lib/solydxk/softwaremanager/make-cmd:38
+#, python-format
+msgid "Could not find package: %s"
+msgstr "ప్యాకేజీ కనుగొనబడలేదు: %s"
+
+#: ../usr/lib/solydxk/softwaremanager/search-apt:34
+msgid "No results"
+msgstr "ఏ ఫలితాలు లేవు"
+
+#: ../usr/lib/solydxk/softwaremanager/search-apt:37
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1746
+msgid "Installed"
+msgstr "స్థాపించబడింది"
+
+#: ../usr/lib/solydxk/softwaremanager/search-apt:41
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:353
+msgid "Package"
+msgstr "ప్యాకేజీ"
+
+#: ../usr/lib/solydxk/softwaremanager/search-apt:42
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:165
+msgid "Description"
+msgstr "వివరణ"
+
+#: ../usr/lib/solydxk/softwaremanager/synaptic-install:14
+#: ../usr/lib/solydxk/softwaremanager/remove.py:48
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:93
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:500
+msgid "Please wait, this can take some time"
+msgstr "దయచేసి వేచివుండండి, దీనికి కొంత సమయం పట్టవచ్చు"
+
+#: ../usr/lib/solydxk/softwaremanager/synaptic-install:16
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:95
+msgid "Installation is complete"
+msgstr "స్థాపన పూర్తయింది"
+
+#: ../usr/lib/solydxk/softwaremanager/remove.py:50
+msgid "Application removed successfully"
+msgstr "అనువర్తనం విజయవంతంగా తొలగించబడింది"
+
+#: ../usr/lib/solydxk/softwaremanager/remove.py:104
+#, python-format
+msgid "Remove %s?"
+msgstr "%s తీసివేయాలా?"
+
+#: ../usr/lib/solydxk/softwaremanager/remove.py:107
+msgid "The following packages will be removed:"
+msgstr "క్రింద పేర్కొన్న ప్యాకేజీలు తొలగించబడతాయి:"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:69
+msgid "Backing up your APT sources"
+msgstr "మీ APT వనరులను బ్యాక్అప్ తీస్తున్నది"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:122
+msgid "Restoring your APT sources"
+msgstr "మీ APT వనరులను పునరుద్ధరిస్తున్నది"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:126
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:324
+msgid "Finished"
+msgstr "పూర్తయింది"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:128
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:479
+msgid "Close"
+msgstr "మూసివేయి"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:205
+msgid "Using the following repositories:"
+msgstr "కిందపేర్కొన్న భాండాగారాలను వాడుతున్నది:"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:208
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:442
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:59
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:155
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1749
+msgid "Install"
+msgstr "స్థాపించు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:210
+#, python-format
+msgid "Install %s?"
+msgstr "%s స్థాపించాలా?"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:213
+msgid "The following packages will be installed:"
+msgstr "క్రింద పేర్కొన్న ప్యాకేజీలు స్థాపించబడతాయి:"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:224
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:344
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1023
+msgid "Default repositories"
+msgstr "అప్రమేయ భాండాగారాలు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:297
+#, python-format
+msgid "Upgrade %s?"
+msgstr "%s ఉన్నతీకరించాలా?"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:299
+msgid "The following packages will be upgraded:"
+msgstr "క్రింద పేర్కొన్న ప్యాకేజీలు ఉన్నతీకరించబడతాయి:"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:300
+msgid "Upgrade"
+msgstr "ఉన్నతీకరించు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:343
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:27
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:636
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:65
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:454
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:769
+#: ../usr/lib/solydxk/softwaremanager/splash.py:20
+#: ../usr/lib/solydxk/softwaremanager/splash.py:27
+#: ../usr/share/applications/solydxk-softwaremanager_kde.desktop.in.h:1
+#: ../usr/share/applications/solydxk-softwaremanager_mime.desktop.in.h:1
+#: ../usr/share/applications/solydxk-softwaremanager.desktop.in.h:1
+msgid "Software Manager"
+msgstr "సాప్ట్‍వేర్ నిర్వాహకం"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:434
+msgid "Find Software"
+msgstr "సాఫ్ట్‍వేర్ కనుగొను"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:437
+#, fuzzy
+msgid "Go to the SolydXK Software Portal"
+msgstr "లినక్స్ మింట్ సాఫ్ట్‍వేర్ ప్రధాన ద్వారానికి వెళ్ళు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:438
+#, fuzzy
+msgid "Search for a .swm application"
+msgstr "ఒక .మింట్ అనువర్తనం కోసం శోధించు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:439
+msgid "Go to the GetDeb Portal"
+msgstr "గెట్‌డెబ్ ప్రధాన ద్వారానికి వెళ్ళు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:440
+msgid "Search for a .deb package"
+msgstr "ఒక .deb ప్యాకేజీ కోసం వెతుకు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:441
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:646
+msgid "Search"
+msgstr "వెతుకు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:443
+msgid "Show"
+msgstr "చూపించు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:444
+msgid "Go to the Ubuntu repository"
+msgstr "ఉబుంటు భాండాగారానికి వెళ్ళు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:445
+#, fuzzy
+msgid "Go to the SolydXK repository"
+msgstr "ఉబుంటు భాండాగారానికి వెళ్ళు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:459
+msgid "Your APT sources were corrupted."
+msgstr "మీ APT వనరులు పాడైనవి."
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:459
+#, fuzzy
+msgid ""
+"Your APT sources were not correctly restored after you last ran "
+"softwaremanager. They now have been restored."
+msgstr ""
+"మీరు చివరిసారిగా మింట్ స్థాపన నడిపినపుడు మీ APT వనరుల సరిగా పునరుద్ధరించబడలేదు. అవి ఇపుడు "
+"పునరుద్ధరించబడినవి."
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:28
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:66
+#: ../usr/share/applications/solydxk-softwaremanager_kde.desktop.in.h:2
+#: ../usr/share/applications/solydxk-softwaremanager_mime.desktop.in.h:2
+#: ../usr/share/applications/solydxk-softwaremanager.desktop.in.h:2
+msgid "Install new applications"
+msgstr "కొత్త అనువర్తనాలను స్థాపించు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:61
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1743
+msgid "Remove"
+msgstr "తీసివేయి"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:63
+msgid "Cancel change"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:78
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:200
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:392
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:817
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1694
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1705
+msgid "MB"
+msgstr "మెబై"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:118
+msgid "Cancel installation"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:121
+msgid "Cancel removal"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:144
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:648
+#, fuzzy
+msgid "Featured applications"
+msgstr "కొత్త అనువర్తనాలను స్థాపించు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:150
+msgid "These popular applications can be installed on your system:"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:159
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:683
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:845
+msgid "Application"
+msgstr "అనువర్తనం"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:162
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:841
+msgid "Icon"
+msgstr "ప్రతీక"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:168
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:362
+#, fuzzy
+msgid "Size"
+msgstr "పరిమాణం:"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:196
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:388
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:813
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1690
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1701
+msgid "B"
+msgstr "బై"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:198
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:390
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:815
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1692
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1703
+msgid "KB"
+msgstr "కిబై"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:202
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:394
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:819
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1696
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1707
+msgid "GB"
+msgstr "గిబై"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:302
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:431
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:454
+msgid ""
+"The solydxk file for this application was not successfully downloaded. Click "
+"on refresh to fix the problem."
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:334
+msgid "Repository"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:356
+#, fuzzy
+msgid "Installed version"
+msgstr "స్థాపించబడింది"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:359
+#, fuzzy
+msgid "Available version"
+msgstr "ప్యాకేజిలు లభ్యం"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:406
+msgid "License:"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:407
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1027
+msgid "Website"
+msgstr "వెబ్‌సైటు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:408
+msgid "Portal URL"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:409
+#, fuzzy
+msgid "Description:"
+msgstr "వివరణ"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:502
+msgid "The changes are complete"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:623
+#, python-format
+msgid ""
+"%(applications)d applications listed, %(install)d to install, %(remove)d to "
+"remove"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:643
+msgid "Quick search:"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:644
+msgid "More info"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:645
+#, fuzzy
+msgid "Show:"
+msgstr "చూపించు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:654
+#, fuzzy
+msgid "All software"
+msgstr "సాఫ్ట్‍వేర్ కనుగొను"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:655
+#, fuzzy
+msgid "Available software"
+msgstr "ప్యాకేజిలు లభ్యం"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:656
+#, fuzzy
+msgid "Installed software"
+msgstr "స్థాపించబడిన ప్యాకేజిలు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:657
+msgid "Your changes"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:666
+#, fuzzy
+msgid "Category"
+msgstr "వర్గాలు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:687
+msgid "Average rating"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:691
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1035
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1047
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1712
+msgid "Reviews"
+msgstr "సమీక్షలు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:695
+#, fuzzy
+msgid "Views"
+msgstr "వీక్షకులు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:699
+msgid "Added"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:703
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:852
+msgid "Score"
+msgstr "స్కోరు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:707
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:877
+msgid "Status"
+msgstr "స్థితి"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:729
+#, fuzzy
+msgid "Reviewer"
+msgstr "సమీక్షలు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:733
+#, fuzzy
+msgid "Rating"
+msgstr "నిరీక్షిస్తోంది"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:737
+#, fuzzy
+msgid "Review"
+msgstr "సమీక్షలు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:768
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:475
+msgid "_File"
+msgstr "ఫైల్ (_F)"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:772
+msgid "Quit"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:777
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:483
+msgid "_Edit"
+msgstr "సవరణ (_E)"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:780
+msgid "Cancel all changes"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:785
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:542
+msgid "_Help"
+msgstr "సహాయం (_H)"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:789
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:546
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:767
+msgid "About"
+msgstr "గురించి"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:818
+#, fuzzy
+msgid "Software manager"
+msgstr "సాప్ట్‍వేర్ నిర్వాహకం"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:911
+msgid ""
+"The data used by softwaremanager is corrupted or out of date. Click on "
+"refresh to fix the problem :"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:914
+msgid "Please refresh softwaremanager by clicking on the Refresh button"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:959
+#, fuzzy, python-format
+msgid "Downloading data for %s"
+msgstr "దింపుతున్నది"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1001
+#, fuzzy, python-format
+msgid "%d categories loaded"
+msgstr "వర్గాలు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1028
+#, fuzzy, python-format
+msgid "%d applications loaded"
+msgstr "అనువర్తనం"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1050
+#, python-format
+msgid "%d screenshots loaded"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1077
+#, fuzzy, python-format
+msgid "%d reviews loaded"
+msgstr "%d సమీక్షలు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1101
+#, fuzzy
+msgid "All applications"
+msgstr "అనువర్తనం"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1159
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1135
+msgid "Games"
+msgstr "ఆటలు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1160
+#, fuzzy
+msgid "First person shooters"
+msgstr "మొదటి-వ్యక్తి షూటర్లు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1161
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1143
+msgid "Turn-based strategy"
+msgstr "వంతు ఆధారిత ఎత్తుగడ"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1162
+#, fuzzy
+msgid "Real time strategy"
+msgstr "వాస్తవ-సమయ ఎత్తుగడ"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1163
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1105
+msgid "Internet"
+msgstr "అంతర్జాలం"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1164
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1145
+msgid "Emulators"
+msgstr "ఎమ్యులేటర్స్"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1165
+#, fuzzy
+msgid "Simulation & racing"
+msgstr "సిమ్యులేషన్ మరియు రేసింగు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1166
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1108
+msgid "Email"
+msgstr "ఈమెయిల్"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1167
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1150
+msgid "Accessories"
+msgstr "సహాయకాలు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1168
+msgid "Text editors"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1169
+#, fuzzy
+msgid "Sound & Video"
+msgstr "ధ్వని మరియు వీడియో"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1170
+msgid "Audio players"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1171
+msgid "Video players"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1172
+msgid "Burning tools"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1173
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1133
+msgid "Office"
+msgstr "కార్యాలయం"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1174
+#, fuzzy
+msgid "Office suites"
+msgstr "కార్యాలయం"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1175
+msgid "Collection managers"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1176
+msgid "Document viewers"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1177
+msgid "Finance"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1178
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1118
+msgid "Graphics"
+msgstr "గ్రాఫిక్స్"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1179
+msgid "2D"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1180
+#, fuzzy
+msgid "Image viewers"
+msgstr "వీక్షకులు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1181
+#, fuzzy
+msgid "Photo"
+msgstr "ఫొటోగ్రఫీ"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1182
+#, fuzzy
+msgid "Scanning tools"
+msgstr "తనిఖీచేస్తున్నది"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1183
+msgid "Tools"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1184
+msgid "Web browsers"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1185
+msgid "Word processors"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1186
+msgid "Spreadsheets"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1187
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1126
+msgid "Publishing"
+msgstr "ప్రచురిస్తోంది"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1188
+msgid "Graph and flowcharts"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1189
+msgid "Databases"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1190
+msgid "Mind mapping"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1191
+msgid "Instant messengers"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1192
+msgid "Internet Relay Chat"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1193
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1161
+msgid "Programming"
+msgstr "ప్రోగామింగ్"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1194
+#, fuzzy
+msgid "Education"
+msgstr "విజ్ఞానశాస్త్రం మరియు విద్య"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1195
+#, fuzzy
+msgid "System Tools"
+msgstr "వ్యవస్థ సాధనాలు"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1196
+msgid "FTP"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1197
+msgid "Desktop components"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1198
+msgid "Package management"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1199
+msgid "P2P and torrent"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1200
+msgid "Firewall"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1201
+msgid "Drivers"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1202
+msgid "Upstream"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:197
+#, fuzzy, python-format
+msgid "The package '%s' could not be installed"
+msgstr "క్రింద పేర్కొన్న ప్యాకేజీలు స్థాపించబడతాయి:"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:199
+#, fuzzy, python-format
+msgid "The package '%s' could not be removed"
+msgstr "క్రింద పేర్కొన్న ప్యాకేజీలు తొలగించబడతాయి:"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:205
+msgid "Please check your connection to the Internet"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:216
+msgid "Another application is using APT:"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:302
+#, python-format
+msgid "%d ongoing actions"
+msgstr "%d చర్యలు జరుగుతున్నాయి"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:312
+#, python-format
+msgid "Cancel the task: %s"
+msgstr "కార్యమును రద్దుచేయి: %s"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:324
+msgid "Waiting"
+msgstr "నిరీక్షిస్తోంది"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:324
+msgid "Downloading"
+msgstr "దింపుతున్నది"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:324
+msgid "Running"
+msgstr "నడుస్తున్నది"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:336
+#, fuzzy, python-format
+msgid "Installing %s"
+msgstr "%s స్థాపించాలా?"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:338
+#, fuzzy, python-format
+msgid "Removing %s"
+msgstr "%s తీసివేయాలా?"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:340
+msgid "Updating cache"
+msgstr "క్యాచీని నవీకరిస్తోంది"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:342
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:344
+msgid "No role set"
+msgstr "ఏ పాత్ర అమర్చలేదు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:487
+msgid "Preferences"
+msgstr "ప్రాధాన్యతలు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:491
+msgid "Search in packages summary (slower search)"
+msgstr "ప్యాకేజీల సారాంశములో వెతుకు (నెమ్మది శోధన)"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:495
+msgid "Search in packages description (even slower search)"
+msgstr "ప్యాకేజీల వివరణలో వెతుకు (చాలా నెమ్మది శోధన)"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:499
+msgid "Open links using the web browser"
+msgstr "జాల విహారిణి ఉపయోగించి లింకులను తెరువు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:503
+msgid "Search while typing"
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:516
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:739
+msgid "Account information"
+msgstr "ఖాతా సమాచారం"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:523
+msgid "Software sources"
+msgstr "సాప్ట్వేర్ వనరులు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:527
+msgid "_View"
+msgstr "వీక్షణం (_V)"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:531
+msgid "Available packages"
+msgstr "ప్యాకేజిలు లభ్యం"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:535
+msgid "Installed packages"
+msgstr "స్థాపించబడిన ప్యాకేజిలు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:592
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:602
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1098
+msgid "Categories"
+msgstr "వర్గాలు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:593
+msgid "Please choose a category"
+msgstr "దయచేసి ఒక వర్గాన్ని ఎన్నుకొను"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:594
+#, python-format
+msgid "%d packages are currently available"
+msgstr "ప్రస్తుతం %d ప్యాకేజీలు అందుబాటులో ఉన్నాయి"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:603
+msgid "Please choose a sub-category"
+msgstr "దయచేసి ఒక ఉప-వర్గాన్ని ఎన్నుకొను"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:624
+msgid "No ongoing actions"
+msgstr "ఏ చర్యలు జరగడం లేదు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:625
+msgid "Active tasks:"
+msgstr "క్రియాశీల కార్యాలు:"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:741
+msgid "Your community account"
+msgstr "మీ సామాజిక ఖాతా"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:743
+msgid "Fill in your account info to review applications"
+msgstr "అనువర్తనాలను సమీక్షించుటకు మీ ఖాతా సమాచారాన్ని నింపండి"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:745
+msgid "Username:"
+msgstr "వాడుకరిపేరు:"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:746
+msgid "Password:"
+msgstr "సంకేతపదం:"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:874
+msgid "Task"
+msgstr "కార్యం"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:880
+msgid "Progress"
+msgstr "పురోగతి"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:977
+msgid "See more reviews"
+msgstr "మరిన్ని సమీక్షలను చూడు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1018
+msgid "Screenshot"
+msgstr "తెరపట్టు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1100
+msgid "Featured"
+msgstr "విశిష్టమైనవి"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1103
+msgid "All Packages"
+msgstr "అన్ని ప్యాకేజీలు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1106
+msgid "Web"
+msgstr "జాలం"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1110
+msgid "Chat"
+msgstr "చాట్"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1112
+msgid "File sharing"
+msgstr "ఫైల్ భాగస్వామ్యం"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1115
+msgid "Sound and video"
+msgstr "ధ్వని మరియు వీడియో"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1120
+msgid "3D"
+msgstr "3డి"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1122
+msgid "Drawing"
+msgstr "చిత్రలేఖనం"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1124
+msgid "Photography"
+msgstr "ఫొటోగ్రఫీ"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1128
+msgid "Scanning"
+msgstr "తనిఖీచేస్తున్నది"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1130
+msgid "Viewers"
+msgstr "వీక్షకులు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1137
+msgid "Board games"
+msgstr "బల్ల ఆటలు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1139
+msgid "First-person shooters"
+msgstr "మొదటి-వ్యక్తి షూటర్లు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1141
+msgid "Real-time strategy"
+msgstr "వాస్తవ-సమయ ఎత్తుగడ"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1147
+msgid "Simulation and racing"
+msgstr "సిమ్యులేషన్ మరియు రేసింగు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1152
+msgid "System tools"
+msgstr "వ్యవస్థ సాధనాలు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1155
+msgid "Fonts"
+msgstr "ఫాంట్లు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1158
+msgid "Science and Education"
+msgstr "విజ్ఞానశాస్త్రం మరియు విద్య"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1352
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1769
+#, python-format
+msgid "%d reviews"
+msgstr "%d సమీక్షలు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1387
+#, python-format
+msgid "%d packages"
+msgstr "%d ప్యాకేజీలు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1605
+#, python-format
+msgid "Only results in category \"%s\" are shown."
+msgstr ""
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1616
+msgid "Search results"
+msgstr "శోధన ఫలితాలు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1655
+msgid "Hate it"
+msgstr "నచ్చలేదు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1655
+msgid "Not a fan"
+msgstr "అభిమాని కాదు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1655
+msgid "So so"
+msgstr "చాలా చాలా"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1655
+msgid "Like it"
+msgstr "ఇష్టపడు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1655
+msgid "Awesome!"
+msgstr "అద్భుతం!"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1672
+msgid "Score:"
+msgstr "స్కోరు:"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1673
+msgid "Submit"
+msgstr "దాఖలుచేయి"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1674
+msgid "Your review"
+msgstr "మీ సమీక్ష"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1686
+#, python-format
+msgid "%s (removed)"
+msgstr "%s (తీసివేయబడింది)"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1688
+#, python-format
+msgid "%s (installed)"
+msgstr "%s (స్థాపించబడింది)"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1709
+msgid "Size:"
+msgstr "పరిమాణం:"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1710
+msgid "Version:"
+msgstr "రూపాంతరం:"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1711
+msgid "Impact on packages:"
+msgstr "ప్యాకేజీల పై ప్రభావం:"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1713
+msgid "Your review:"
+msgstr "మీ సమీక్ష:"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1714
+msgid "Details"
+msgstr "వివరాలు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1718
+#, python-format
+msgid "%(localSize)s of disk space freed"
+msgstr "%(localSize)s డిస్కు స్థలం ఖాళీచేయబడుతుంది"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1720
+#, python-format
+msgid "%(localSize)s of disk space required"
+msgstr "%(localSize)s డిస్కు స్థలం అవసరం"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1723
+#, python-format
+msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
+msgstr "%(downloadSize)s దించుకోవలసివుంది, %(localSize)s డిస్కు స్థలం ఖాళీచేయబడుతుంది"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1725
+#, python-format
+msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
+msgstr "%(downloadSize)s దించుకోవలసివుంది, %(localSize)s డిస్కు స్థలం అవసరం"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1752
+msgid "Not installed"
+msgstr "స్థాపించబడిలేదు"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1773
+msgid "Reviews:"
+msgstr "సమీక్షలు:"
+
+#: ../usr/lib/solydxk/softwaremanager/splash.py:28
+#, python-format
+msgid "Gathering information for %d packages..."
+msgstr "%d ప్యాకేజీల కొరకు సమాచారాన్ని సేకరిస్తున్నది..."
+
+#~ msgid "Go to the Linux Mint repository"
+#~ msgstr "లినక్స్ మింట్ భాండాగారానికి వెళ్ళు"

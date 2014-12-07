@@ -1,0 +1,27 @@
+Source: solydxk-softwaremanager
+Section: admin
+Priority: optional
+Maintainer: Arjen Balfoort <arjenbalfoort@solydxk.com>
+Build-Depends: debhelper (>= 9)
+  , python
+  , intltool
+X-Python-Version: >= 2.7
+Standards-Version: 3.9.5
+Vcs-Git: git://github.com/SolydXK/softwaremanager.git
+Vcs-Browser: https://github.com/SolydXK/softwaremanager
+
+Package: solydxk-softwaremanager
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+  , python (>= 2.4), python (<< 3)
+  , python-gtk2
+  , python-glade2
+  , python-webkit
+  , python-imaging
+  , ttf-freefont
+  , python-sexy
+  , libgtk2-perl
+Conflicts: solydxk-locale
+Replaces: solydxk-locale
+Description: Software Manager
+ A software manager to easily install new applications.

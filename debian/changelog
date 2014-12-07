@@ -1,0 +1,112 @@
+solydxk-softwaremanager (7.6.6-1) debian; urgency=low
+
+  * Improved translation handling
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 03 Nov 2014 13:00:00 +0200
+
+solydxk-softwaremanager (7.6.4) debian; urgency=low
+
+  * Bug resolved: fails with Attempt to unlock mutex that was not locked
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 02 Oct 2014 23:00:00 +0100
+
+solydxk-softwaremanager (7.6.3) debian; urgency=low
+
+  * Changed icon handling for Evolvere theme
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Fri, 12 Sep 2014 11:00:00 +0100
+
+solydxk-softwaremanager (7.6.2) debian; urgency=low
+
+  * Moved locale to solydxk-locale
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 26 May 2014 08:00:00 +0100
+
+solydxk-softwaremanager (7.6.1) debian; urgency=low
+
+  * Start with gksudo instead of gksu
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 23 Apr 2014 19:00:00 +0100
+
+solydxk-softwaremanager (7.6.0) debian; urgency=low
+
+  * Fixed 64px size icon in package view (fixes huge icons in KDE)
+  * Download screenshots asynchronously
+  * Various UI improvements
+  * Various speed improvements
+  * Added Turkish, and Dutch translations
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 02 Apr 2014 19:00:00 +0100
+
+solydxk-softwaremanager (7.5.8) debian; urgency=low
+
+  * Adapted Italian translation
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 24 Dec 2013 12:00:00 +0100
+
+solydxk-softwaremanager (7.5.7) debian; urgency=low
+
+  * Removed unneeded dbus reference
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 04 Dec 2013 14:00:00 +0100
+
+solydxk-softwaremanager (7.5.6) debian; urgency=low
+
+  * Adapted French translation
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 21 Oct 2013 19:00:00 +0100
+
+solydxk-softwaremanager (7.5.5) debian; urgency=low
+
+  * Added Greek translation
+    provided by Stelios
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 03 Oct 2013 11:00:00 +0100
+
+solydxk-softwaremanager (7.5.4) debian; urgency=low
+
+  * Added French translation
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 07 Sep 2013 23:00:00 +0100
+
+solydxk-softwaremanager (7.5.3) debian; urgency=low
+
+  * Moved translations to standard directory /usr/share/locale
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 06 Jun 2013 10:00:00 +0100
+
+solydxk-softwaremanager (7.5.2) debian; urgency=low
+
+  * Added Catalan translation
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 05 Jun 2013 03:00:00 +0100
+
+solydxk-softwaremanager (7.5.1) debian; urgency=low
+
+  * Added translations: Spanish, Dutch
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 25 May 2013 10:00:00 +0100
+
+solydxk-softwaremanager (7.4.8) debian; urgency=low
+
+  * 7.4.8
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Fri, 24 May 2013 11:00:00 +0100
+
+solydxk-softwaremanager (7.4.6) debian; urgency=low
+
+  * Some minor bugs resolved
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 03 Apr 2013 11:30:00 +0100
+
+solydxk-softwaremanager (7.4.5) debian; urgency=low
+
+  * Replaces mintinstall and mintinstall-icons version 7.4.5
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 23 Feb 2013 19:30:00 +0100
+ 
+solydxk-softwaremanager (7.4.4) debian; urgency=low
+
+  * Adapted and repackaged for SolydXK version 7.4.4
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 23 Jan 2013 08:38:00 +0100
