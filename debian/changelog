@@ -1,3 +1,9 @@
+solydxk-softwaremanager (7.6.7) debian; urgency=low
+
+  * French translation
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 06 May 2015 15:30:00 +0200
+
 solydxk-softwaremanager (7.6.6-1) debian; urgency=low
 
   * Improved translation handling

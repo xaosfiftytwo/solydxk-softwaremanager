@@ -27,7 +27,7 @@ update:
 		--package-name=$(package) \
 		--package-version='' \
 		--from-code=UTF-8 \
-		../usr/bin/solydxk-softwaremanager ../usr/lib/solydxk/softwaremanager/make-cmd ../usr/lib/solydxk/softwaremanager/search-apt ../usr/lib/solydxk/softwaremanager/search-portal ../usr/lib/solydxk/softwaremanager/show-apt ../usr/lib/solydxk/softwaremanager/synaptic-install `find .. -name '*.py'` && echo OK
+		../usr/bin/solydxk-softwaremanager ../usr/lib/solydxk/softwaremanager/make-cmd ../usr/lib/solydxk/softwaremanager/search-apt ../usr/lib/solydxk/softwaremanager/search-portal ../usr/lib/solydxk/softwaremanager/show-apt ../usr/lib/solydxk/softwaremanager/synaptic-install `find .. -wholename ../debian -prune -o -name '*.py' | grep .py` && echo OK
 	# get strings from the desktop file
 	@ for LAUNCHER in `find .. -name '*.desktop'`; do \
 		sed -r \

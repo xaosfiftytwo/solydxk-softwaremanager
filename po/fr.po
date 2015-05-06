@@ -5,30 +5,29 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: softwaremanager 7.5.0\n"
+"Project-Id-Version: softwaremanager 7.6.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-03 19:24+0100\n"
-"PO-Revision-Date: 2013-09-04 22:11+0100\n"
-"Last-Translator: Kyodev <kyodev@gmail.com>\n"
+"POT-Creation-Date: 2015-05-06 15:39+0200\n"
+"PO-Revision-Date: 2015-04-25 18:31+0100\n"
+"Last-Translator: Jocelyn <anechampenois@solydxk.com>\n"
 "Language-Team: solyd-fr <admin@solydxk.com>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.10\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: ../usr/lib/solydxk/softwaremanager/make-cmd:37
 #: ../usr/lib/solydxk/softwaremanager/make-cmd:38
 #, python-format
 msgid "Could not find package: %s"
-msgstr ""
+msgstr "Impossible de trouver le paquet: %s"
 
 #: ../usr/lib/solydxk/softwaremanager/search-apt:34
-#, fuzzy
 msgid "No results"
-msgstr "Résultats de la recherche"
+msgstr "Aucun résultat"
 
 #: ../usr/lib/solydxk/softwaremanager/search-apt:37
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1746
@@ -37,19 +36,18 @@ msgstr "Installé"
 
 #: ../usr/lib/solydxk/softwaremanager/search-apt:41
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:353
-#, fuzzy
 msgid "Package"
-msgstr "Tous les paquets"
+msgstr "Paquet"
 
 #: ../usr/lib/solydxk/softwaremanager/search-apt:42
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:165
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ../usr/lib/solydxk/softwaremanager/synaptic-install:14
-#: ../usr/lib/solydxk/softwaremanager/remove.py:48
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:93
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:500
+#: ../usr/lib/solydxk/softwaremanager/remove.py:48
 msgid "Please wait, this can take some time"
 msgstr "Veuillez patienter, ceci peut prendre un certain temps"
 
@@ -57,19 +55,6 @@ msgstr "Veuillez patienter, ceci peut prendre un certain temps"
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:95
 msgid "Installation is complete"
 msgstr "L'installation est complète"
-
-#: ../usr/lib/solydxk/softwaremanager/remove.py:50
-msgid "Application removed successfully"
-msgstr "Applications retirées avec succès"
-
-#: ../usr/lib/solydxk/softwaremanager/remove.py:104
-#, python-format
-msgid "Remove %s?"
-msgstr "Suppression de %s?"
-
-#: ../usr/lib/solydxk/softwaremanager/remove.py:107
-msgid "The following packages will be removed:"
-msgstr "Les paquets suivants seront supprimés:"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:69
 msgid "Backing up your APT sources"
@@ -95,9 +80,9 @@ msgstr "Utilisation des dépôts suivants:"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:208
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:442
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1749
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:59
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:155
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1749
 msgid "Install"
 msgstr "Installer"
 
@@ -130,11 +115,11 @@ msgid "Upgrade"
 msgstr "Mise à niveau"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:343
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:27
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:636
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:65
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:454
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:769
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:27
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:636
 #: ../usr/lib/solydxk/softwaremanager/splash.py:20
 #: ../usr/lib/solydxk/softwaremanager/splash.py:27
 #: ../usr/share/applications/solydxk-softwaremanager_kde.desktop.in.h:1
@@ -189,514 +174,34 @@ msgid ""
 "Your APT sources were not correctly restored after you last ran "
 "softwaremanager. They now have been restored."
 msgstr ""
-"Vos sources APT n'ont pas été correctement restaurées après la dernière "
-"exécution du gestionnaire de logiciels. Elles ont maintenant été restaurées."
+"Vos sources APT n'avaient pas été correctement restaurées après la dernière "
+"exécution du gestionnaire. Elles sont maintenant restaurées."
 
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:28
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:66
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:28
 #: ../usr/share/applications/solydxk-softwaremanager_kde.desktop.in.h:2
 #: ../usr/share/applications/solydxk-softwaremanager_mime.desktop.in.h:2
 #: ../usr/share/applications/solydxk-softwaremanager.desktop.in.h:2
 msgid "Install new applications"
 msgstr "Installer de nouvelles applications"
 
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:61
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1743
-msgid "Remove"
-msgstr "Suppression"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:63
-msgid "Cancel change"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:78
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:200
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:392
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:817
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1694
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1705
-msgid "MB"
-msgstr "Mo"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:118
-msgid "Cancel installation"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:121
-msgid "Cancel removal"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:144
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:648
-#, fuzzy
-msgid "Featured applications"
-msgstr "Installer de nouvelles applications"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:150
-msgid "These popular applications can be installed on your system:"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:159
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:683
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:845
-msgid "Application"
-msgstr "Application"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:162
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:841
-msgid "Icon"
-msgstr "Icône"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:168
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:362
-#, fuzzy
-msgid "Size"
-msgstr "Taille:"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:196
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:388
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:813
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1690
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1701
-msgid "B"
-msgstr "o"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:198
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:390
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:815
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1692
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1703
-msgid "KB"
-msgstr "Ko"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:202
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:394
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:819
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1696
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1707
-msgid "GB"
-msgstr "Go"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:302
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:431
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:454
-msgid ""
-"The solydxk file for this application was not successfully downloaded. Click "
-"on refresh to fix the problem."
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:334
-msgid "Repository"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:356
-#, fuzzy
-msgid "Installed version"
-msgstr "Installé"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:359
-#, fuzzy
-msgid "Available version"
-msgstr "Paquets disponibles"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:406
-msgid "License:"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:407
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1027
-msgid "Website"
-msgstr "Site web"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:408
-msgid "Portal URL"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:409
-#, fuzzy
-msgid "Description:"
-msgstr "Version:"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:502
-msgid "The changes are complete"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:623
-#, python-format
-msgid ""
-"%(applications)d applications listed, %(install)d to install, %(remove)d to "
-"remove"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:643
-msgid "Quick search:"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:644
-msgid "More info"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:645
-#, fuzzy
-msgid "Show:"
-msgstr "Afficher"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:654
-#, fuzzy
-msgid "All software"
-msgstr "Recherche de logiciels"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:655
-#, fuzzy
-msgid "Available software"
-msgstr "Paquets disponibles"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:656
-#, fuzzy
-msgid "Installed software"
-msgstr "Paquets installés"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:657
-msgid "Your changes"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:666
-#, fuzzy
-msgid "Category"
-msgstr "Catégories"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:687
-msgid "Average rating"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:691
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1035
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1047
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1712
-msgid "Reviews"
-msgstr "Commentaires"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:695
-#, fuzzy
-msgid "Views"
-msgstr "Lecteurs"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:699
-msgid "Added"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:703
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:852
-msgid "Score"
-msgstr "Score"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:707
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:877
-msgid "Status"
-msgstr "État"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:729
-#, fuzzy
-msgid "Reviewer"
-msgstr "Commentaires"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:733
-#, fuzzy
-msgid "Rating"
-msgstr "En attente"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:737
-#, fuzzy
-msgid "Review"
-msgstr "Commentaires"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:768
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:475
-msgid "_File"
-msgstr "_Fichier"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:772
-msgid "Quit"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:777
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:483
-msgid "_Edit"
-msgstr "_Edition"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:780
-msgid "Cancel all changes"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:785
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:542
-msgid "_Help"
-msgstr "_Aide"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:789
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:546
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:767
-msgid "About"
-msgstr "À propos"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:818
-#, fuzzy
-msgid "Software manager"
-msgstr "Gestionnaire de logiciels"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:911
-msgid ""
-"The data used by softwaremanager is corrupted or out of date. Click on "
-"refresh to fix the problem :"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:914
-msgid "Please refresh softwaremanager by clicking on the Refresh button"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:959
-#, fuzzy, python-format
-msgid "Downloading data for %s"
-msgstr "Téléchargement"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1001
-#, fuzzy, python-format
-msgid "%d categories loaded"
-msgstr "Catégories"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1028
-#, fuzzy, python-format
-msgid "%d applications loaded"
-msgstr "Application"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1050
-#, python-format
-msgid "%d screenshots loaded"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1077
-#, fuzzy, python-format
-msgid "%d reviews loaded"
-msgstr "%d commentaires"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1101
-#, fuzzy
-msgid "All applications"
-msgstr "Application"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1159
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1135
-msgid "Games"
-msgstr "Jeux"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1160
-#, fuzzy
-msgid "First person shooters"
-msgstr "Doom-like (FPS)"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1161
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1143
-msgid "Turn-based strategy"
-msgstr "Jeu de stratégie au tour par tour (TBS)"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1162
-#, fuzzy
-msgid "Real time strategy"
-msgstr "Jeu de stratégie en temps réel (RTS)"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1163
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1105
-msgid "Internet"
-msgstr "Internet"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1164
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1145
-msgid "Emulators"
-msgstr "Émulateurs"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1165
-#, fuzzy
-msgid "Simulation & racing"
-msgstr "Simulation et course"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1166
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1108
-msgid "Email"
-msgstr "Adresse électronique"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1167
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1150
-msgid "Accessories"
-msgstr "Accessoires"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1168
-msgid "Text editors"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1169
-#, fuzzy
-msgid "Sound & Video"
-msgstr "Multimédia"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1170
-msgid "Audio players"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1171
-msgid "Video players"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1172
-msgid "Burning tools"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1173
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1133
-msgid "Office"
-msgstr "Bureautique"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1174
-#, fuzzy
-msgid "Office suites"
-msgstr "Bureautique"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1175
-msgid "Collection managers"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1176
-msgid "Document viewers"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1177
-msgid "Finance"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1178
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1118
-msgid "Graphics"
-msgstr "Graphisme"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1179
-msgid "2D"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1180
-#, fuzzy
-msgid "Image viewers"
-msgstr "Lecteurs"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1181
-#, fuzzy
-msgid "Photo"
-msgstr "Photographie"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1182
-#, fuzzy
-msgid "Scanning tools"
-msgstr "Scan"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1183
-msgid "Tools"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1184
-msgid "Web browsers"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1185
-msgid "Word processors"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1186
-msgid "Spreadsheets"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1187
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1126
-msgid "Publishing"
-msgstr "Publication"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1188
-msgid "Graph and flowcharts"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1189
-msgid "Databases"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1190
-msgid "Mind mapping"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1191
-msgid "Instant messengers"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1192
-msgid "Internet Relay Chat"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1193
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1161
-msgid "Programming"
-msgstr "Développement"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1194
-#, fuzzy
-msgid "Education"
-msgstr "Science et éducation"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1195
-#, fuzzy
-msgid "System Tools"
-msgstr "Outils système"
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1196
-msgid "FTP"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1197
-msgid "Desktop components"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1198
-msgid "Package management"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1199
-msgid "P2P and torrent"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1200
-msgid "Firewall"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1201
-msgid "Drivers"
-msgstr ""
-
-#: ../usr/lib/solydxk/softwaremanager/frontend.py:1202
-msgid "Upstream"
-msgstr ""
-
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:197
-#, fuzzy, python-format
+#, python-format
 msgid "The package '%s' could not be installed"
-msgstr "Les paquets suivants seront installés:"
+msgstr "Le paquet '%s' ne peut pas être installé"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:199
-#, fuzzy, python-format
+#, python-format
 msgid "The package '%s' could not be removed"
-msgstr "Les paquets suivants seront supprimés:"
+msgstr "Le paquet '%s' ne peut pas être supprimé"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:205
 msgid "Please check your connection to the Internet"
-msgstr ""
+msgstr "Vérifiez votre connexion à internet"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:216
 msgid "Another application is using APT:"
-msgstr ""
+msgstr "Une autre application utilise APT:"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:302
 #, python-format
@@ -739,6 +244,16 @@ msgstr "Mise à jour du cache"
 msgid "No role set"
 msgstr "Pas de rôle défini"
 
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:475
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:768
+msgid "_File"
+msgstr "_Fichier"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:483
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:777
+msgid "_Edit"
+msgstr "_Edition"
+
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:487
 msgid "Preferences"
 msgstr "Préférences"
@@ -780,6 +295,17 @@ msgstr "Paquets disponibles"
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:535
 msgid "Installed packages"
 msgstr "Paquets installés"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:542
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:785
+msgid "_Help"
+msgstr "_Aide"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:546
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:767
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:789
+msgid "About"
+msgstr "À propos"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:592
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:602
@@ -824,9 +350,63 @@ msgstr "Nom d'utilisateur:"
 msgid "Password:"
 msgstr "Mot de passe:"
 
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:813
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1690
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1701
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:196
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:388
+msgid "B"
+msgstr "o"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:815
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1692
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1703
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:198
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:390
+msgid "KB"
+msgstr "Ko"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:817
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1694
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1705
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:78
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:200
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:392
+msgid "MB"
+msgstr "Mo"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:819
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1696
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1707
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:202
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:394
+msgid "GB"
+msgstr "Go"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:841
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:162
+msgid "Icon"
+msgstr "Icône"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:845
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:159
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:683
+msgid "Application"
+msgstr "Application"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:852
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:703
+msgid "Score"
+msgstr "Score"
+
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:874
 msgid "Task"
 msgstr "Tâche"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:877
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:707
+msgid "Status"
+msgstr "État"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:880
 msgid "Progress"
@@ -840,6 +420,18 @@ msgstr "Voir plus de commentaires"
 msgid "Screenshot"
 msgstr "Copie d'écran"
 
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1027
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:407
+msgid "Website"
+msgstr "Site web"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1035
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1047
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1712
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:691
+msgid "Reviews"
+msgstr "Commentaires"
+
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1100
 msgid "Featured"
 msgstr "En vedette"
@@ -848,9 +440,19 @@ msgstr "En vedette"
 msgid "All Packages"
 msgstr "Tous les paquets"
 
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1105
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1163
+msgid "Internet"
+msgstr "Internet"
+
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1106
 msgid "Web"
 msgstr "Web"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1108
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1166
+msgid "Email"
+msgstr "Adresse électronique"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1110
 msgid "Chat"
@@ -864,6 +466,11 @@ msgstr "Partage de fichiers"
 msgid "Sound and video"
 msgstr "Multimédia"
 
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1118
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1178
+msgid "Graphics"
+msgstr "Graphisme"
+
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1120
 msgid "3D"
 msgstr "3D"
@@ -876,6 +483,11 @@ msgstr "Dessin"
 msgid "Photography"
 msgstr "Photographie"
 
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1126
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1187
+msgid "Publishing"
+msgstr "Publication"
+
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1128
 msgid "Scanning"
 msgstr "Scan"
@@ -883,6 +495,16 @@ msgstr "Scan"
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1130
 msgid "Viewers"
 msgstr "Lecteurs"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1133
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1173
+msgid "Office"
+msgstr "Bureautique"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1135
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1159
+msgid "Games"
+msgstr "Jeux"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1137
 msgid "Board games"
@@ -896,9 +518,24 @@ msgstr "Doom-like (FPS)"
 msgid "Real-time strategy"
 msgstr "Jeu de stratégie en temps réel (RTS)"
 
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1143
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1161
+msgid "Turn-based strategy"
+msgstr "Jeu de stratégie au tour par tour (TBS)"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1145
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1164
+msgid "Emulators"
+msgstr "Émulateurs"
+
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1147
 msgid "Simulation and racing"
 msgstr "Simulation et course"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1150
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1167
+msgid "Accessories"
+msgstr "Accessoires"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1152
 msgid "System tools"
@@ -911,6 +548,11 @@ msgstr "Polices"
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1158
 msgid "Science and Education"
 msgstr "Science et éducation"
+
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1161
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1193
+msgid "Programming"
+msgstr "Développement"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1352
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1769
@@ -1014,6 +656,11 @@ msgstr "%(downloadSize)s à télécharger, %(localSize)s d'espace disque libér�
 msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
 msgstr "%(downloadSize)s à télécharger, %(localSize)s d'espace disque requis"
 
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1743
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:61
+msgid "Remove"
+msgstr "Suppression"
+
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1752
 msgid "Not installed"
 msgstr "Non installé"
@@ -1021,6 +668,337 @@ msgstr "Non installé"
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1773
 msgid "Reviews:"
 msgstr "Commentaires:"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:63
+msgid "Cancel change"
+msgstr "Annuler la modification"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:118
+msgid "Cancel installation"
+msgstr "Annuler l'installation"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:121
+msgid "Cancel removal"
+msgstr "Annuler la suppression"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:144
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:648
+msgid "Featured applications"
+msgstr "En vedette"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:150
+msgid "These popular applications can be installed on your system:"
+msgstr "Ces programmes plébiscités peuvent être installés sur votre système:"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:168
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:362
+msgid "Size"
+msgstr "Taille:"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:302
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:431
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:454
+msgid ""
+"The solydxk file for this application was not successfully downloaded. Click "
+"on refresh to fix the problem."
+msgstr ""
+"Le fichier solydxk pour cette application n'a pas pu être téléchargé. "
+"Rafraîchissez les sources pour corriger le problème."
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:334
+msgid "Repository"
+msgstr "Dépôt"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:356
+msgid "Installed version"
+msgstr "Version installée"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:359
+msgid "Available version"
+msgstr "Version disponible"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:406
+msgid "License:"
+msgstr "License:"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:408
+msgid "Portal URL"
+msgstr "Adresse du portail"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:409
+msgid "Description:"
+msgstr "Description:"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:502
+msgid "The changes are complete"
+msgstr "Tous les changements ont été effectués"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:623
+#, python-format
+msgid ""
+"%(applications)d applications listed, %(install)d to install, %(remove)d to "
+"remove"
+msgstr ""
+"%(applications)d applications listées, %(install)d à installer, %(remove)d à "
+"supprimer"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:643
+msgid "Quick search:"
+msgstr "Recherche rapide:"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:644
+msgid "More info"
+msgstr "Plus d'infos"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:645
+msgid "Show:"
+msgstr "Afficher:"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:654
+msgid "All software"
+msgstr "Tous les logiciels"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:655
+msgid "Available software"
+msgstr "Logiciels disponibles"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:656
+msgid "Installed software"
+msgstr "Logiciels installés"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:657
+msgid "Your changes"
+msgstr "Vos modifications"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:666
+msgid "Category"
+msgstr "Catégories"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:687
+msgid "Average rating"
+msgstr "Note moyenne"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:695
+msgid "Views"
+msgstr "Vues"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:699
+msgid "Added"
+msgstr "Ajouté"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:729
+msgid "Reviewer"
+msgstr "Commentateur"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:733
+msgid "Rating"
+msgstr "Score"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:737
+msgid "Review"
+msgstr "Commentaire"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:772
+msgid "Quit"
+msgstr "Quitter"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:780
+msgid "Cancel all changes"
+msgstr "Annuler tous les changements"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:818
+msgid "Software manager"
+msgstr "Gestionnaire de logiciels"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:911
+msgid ""
+"The data used by softwaremanager is corrupted or out of date. Click on "
+"refresh to fix the problem :"
+msgstr ""
+"Les données utilisées par le gestionnaire ne sont pas à jour ou corrompues. "
+"Rechargez-les pour régler le problème:"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:914
+msgid "Please refresh softwaremanager by clicking on the Refresh button"
+msgstr "Actualisez le gestionnaire en cliquant sur 'Recharger'"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:959
+#, python-format
+msgid "Downloading data for %s"
+msgstr "Téléchargement de données pour %s"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1001
+#, python-format
+msgid "%d categories loaded"
+msgstr "%d catégories chargées"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1028
+#, python-format
+msgid "%d applications loaded"
+msgstr "%d applications chargées"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1050
+#, python-format
+msgid "%d screenshots loaded"
+msgstr "%d copies d'écran chargées"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1077
+#, python-format
+msgid "%d reviews loaded"
+msgstr "%d commentaires chargés"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1101
+msgid "All applications"
+msgstr "Toutes les applications"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1160
+msgid "First person shooters"
+msgstr "Doom-like (FPS)"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1162
+msgid "Real time strategy"
+msgstr "Jeu de stratégie en temps réel (RTS)"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1165
+msgid "Simulation & racing"
+msgstr "Simulation et course"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1168
+msgid "Text editors"
+msgstr "Éditeurs de texte"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1169
+msgid "Sound & Video"
+msgstr "Multimédia"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1170
+msgid "Audio players"
+msgstr "Lecteurs audios"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1171
+msgid "Video players"
+msgstr "Lecteurs vidéos"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1172
+msgid "Burning tools"
+msgstr "Logiciels de gravure"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1174
+msgid "Office suites"
+msgstr "Suites bureautiques"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1175
+msgid "Collection managers"
+msgstr "Gestionnaires de collections"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1176
+msgid "Document viewers"
+msgstr "Visionneuse de documents"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1177
+msgid "Finance"
+msgstr "Finance"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1179
+msgid "2D"
+msgstr "2D"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1180
+msgid "Image viewers"
+msgstr "Visionneuses d'images"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1181
+msgid "Photo"
+msgstr "Photographie"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1182
+msgid "Scanning tools"
+msgstr "Scan (outils)"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1183
+msgid "Tools"
+msgstr "Outils"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1184
+msgid "Web browsers"
+msgstr "Navigateurs internet"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1185
+msgid "Word processors"
+msgstr "Traitements de texte"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1186
+msgid "Spreadsheets"
+msgstr "Tableurs"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1188
+msgid "Graph and flowcharts"
+msgstr "Graphiques et organigrammes"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1189
+msgid "Databases"
+msgstr "Bases de données"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1190
+msgid "Mind mapping"
+msgstr "Carte mentale"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1191
+msgid "Instant messengers"
+msgstr "Messagerie instantanée"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1192
+msgid "Internet Relay Chat"
+msgstr "IRC"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1194
+msgid "Education"
+msgstr "Éducation"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1195
+msgid "System Tools"
+msgstr "Outils système"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1196
+msgid "FTP"
+msgstr "FTP"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1197
+msgid "Desktop components"
+msgstr "Éléments du bureau"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1198
+msgid "Package management"
+msgstr "Gestion des paquets"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1199
+msgid "P2P and torrent"
+msgstr "P2P et torrent"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1200
+msgid "Firewall"
+msgstr "Parefeu/Firewall"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1201
+msgid "Drivers"
+msgstr "Drivers"
+
+#: ../usr/lib/solydxk/softwaremanager/frontend.py:1202
+msgid "Upstream"
+msgstr "Upstream"
+
+#: ../usr/lib/solydxk/softwaremanager/remove.py:50
+msgid "Application removed successfully"
+msgstr "Applications retirées avec succès"
+
+#: ../usr/lib/solydxk/softwaremanager/remove.py:104
+#, python-format
+msgid "Remove %s?"
+msgstr "Suppression de %s?"
+
+#: ../usr/lib/solydxk/softwaremanager/remove.py:107
+msgid "The following packages will be removed:"
+msgstr "Les paquets suivants seront supprimés:"
 
 #: ../usr/lib/solydxk/softwaremanager/splash.py:28
 #, python-format
