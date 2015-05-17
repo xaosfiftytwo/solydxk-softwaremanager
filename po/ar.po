@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06 15:39+0200\n"
+"POT-Creation-Date: 2015-05-11 16:33+0200\n"
 "PO-Revision-Date: 2013-02-07 08:56+0000\n"
 "Last-Translator: qasim <qasem1988@gmail.com>\n"
 "Language-Team: Arabic <ar@li.org>\n"
@@ -24,7 +24,7 @@ msgid "No results"
 msgstr "لا توجد نتائج"
 
 #: ../usr/lib/solydxk/softwaremanager/search-apt:37
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1746
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1749
 msgid "Installed"
 msgstr "تم التثبيت"
 
@@ -74,7 +74,7 @@ msgstr "باستخدام المستودعات التالية:"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:208
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:442
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1749
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1752
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:59
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:155
 msgid "Install"
@@ -348,24 +348,24 @@ msgid "Password:"
 msgstr "كلمة السر :"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:813
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1690
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1701
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1693
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1704
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:196
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:388
 msgid "B"
 msgstr "بايت"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:815
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1692
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1703
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1695
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1706
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:198
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:390
 msgid "KB"
 msgstr "ك.ب."
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:817
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1694
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1705
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1697
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1708
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:78
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:200
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:392
@@ -373,8 +373,8 @@ msgid "MB"
 msgstr "م.ب."
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:819
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1696
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1707
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1699
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1710
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:202
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:394
 msgid "GB"
@@ -424,7 +424,7 @@ msgstr "الموقع الإلكتروني"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1035
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1047
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1712
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1715
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:691
 msgid "Reviews"
 msgstr "مراجعات"
@@ -552,7 +552,7 @@ msgid "Programming"
 msgstr "البرمجة"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1352
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1769
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1772
 #, python-format
 msgid "%d reviews"
 msgstr "%d تعليق"
@@ -603,66 +603,66 @@ msgstr "أرسل"
 msgid "Your review"
 msgstr "مراجعتك"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1686
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1689
 #, python-format
 msgid "%s (removed)"
 msgstr "%s (أُزيل)"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1688
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1691
 #, python-format
 msgid "%s (installed)"
 msgstr "%s (ثُبِّت)"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1709
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1712
 msgid "Size:"
 msgstr ":الحجم"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1710
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1713
 msgid "Version:"
 msgstr "الإصدار:"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1711
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1714
 msgid "Impact on packages:"
 msgstr "التأثير على الحزم:"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1713
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1716
 msgid "Your review:"
 msgstr "تعليقك"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1714
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1717
 msgid "Details"
 msgstr "تفاصيل"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1718
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1721
 #, python-format
 msgid "%(localSize)s of disk space freed"
 msgstr "%(localSize)s مساحة أفرغت من القرص."
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1720
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1723
 #, python-format
 msgid "%(localSize)s of disk space required"
 msgstr "%(localSize)s مساحة مطلوبة من القرص."
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1723
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1726
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
 msgstr "%(downloadSize)s ليتم تحميله, %(localSize)s ليتم إفراغه"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1725
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1728
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
 msgstr "%(downloadSize)s ليتم تحميله, %(localSize)s مساحة مطلوبة"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1743
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1746
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:61
 msgid "Remove"
 msgstr "ازالة"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1752
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1755
 msgid "Not installed"
 msgstr "غير مثبت"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1773
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1776
 msgid "Reviews:"
 msgstr "تعليقات:"
 

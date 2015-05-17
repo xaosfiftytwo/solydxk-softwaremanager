@@ -19,6 +19,10 @@ set -e
 
 case "$1" in
     configure)
+	chmod +x /usr/bin/solydxk-softwaremanager
+	chmod +x /usr/lib/solydxk/softwaremanager/softwaremanager.py
+	chmod +x /usr/lib/solydxk/softwaremanager/softwaremanager-args.py
+	
 	if which update-mime-database > /dev/null
 	then
 		update-mime-database /usr/share/mime

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06 15:39+0200\n"
+"POT-Creation-Date: 2015-05-11 16:33+0200\n"
 "PO-Revision-Date: 2014-07-20 14:46+0000\n"
 "Last-Translator: Algimantas Margevičius <algimantas@margevicius.lt>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
@@ -24,7 +24,7 @@ msgid "No results"
 msgstr "Rezultatų nėra"
 
 #: ../usr/lib/solydxk/softwaremanager/search-apt:37
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1746
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1749
 msgid "Installed"
 msgstr "Įdiegta"
 
@@ -74,7 +74,7 @@ msgstr "Naudojamos šios saugyklos:"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:208
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:442
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1749
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1752
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:59
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:155
 msgid "Install"
@@ -348,24 +348,24 @@ msgid "Password:"
 msgstr "Slaptažodis:"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:813
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1690
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1701
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1693
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1704
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:196
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:388
 msgid "B"
 msgstr "B"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:815
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1692
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1703
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1695
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1706
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:198
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:390
 msgid "KB"
 msgstr "KB"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:817
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1694
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1705
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1697
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1708
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:78
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:200
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:392
@@ -373,8 +373,8 @@ msgid "MB"
 msgstr "MB"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:819
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1696
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1707
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1699
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1710
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:202
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:394
 msgid "GB"
@@ -424,7 +424,7 @@ msgstr "Svetainė"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1035
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1047
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1712
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1715
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:691
 msgid "Reviews"
 msgstr "Apžvalgos"
@@ -552,7 +552,7 @@ msgid "Programming"
 msgstr "Programavimas"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1352
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1769
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1772
 #, python-format
 msgid "%d reviews"
 msgstr "įvertinimų: %d"
@@ -603,66 +603,66 @@ msgstr "Pateikti"
 msgid "Your review"
 msgstr "Jūsų apžvalga"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1686
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1689
 #, python-format
 msgid "%s (removed)"
 msgstr "%s (pašalinta)"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1688
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1691
 #, python-format
 msgid "%s (installed)"
 msgstr "%s (įdiegta)"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1709
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1712
 msgid "Size:"
 msgstr "Dydis:"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1710
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1713
 msgid "Version:"
 msgstr "Versija:"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1711
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1714
 msgid "Impact on packages:"
 msgstr "Poveikis paketams:"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1713
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1716
 msgid "Your review:"
 msgstr "Jūsų įvertinimas"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1714
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1717
 msgid "Details"
 msgstr "Informacija"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1718
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1721
 #, python-format
 msgid "%(localSize)s of disk space freed"
 msgstr "Atlaisvinta %(localSize)s disko vietos"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1720
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1723
 #, python-format
 msgid "%(localSize)s of disk space required"
 msgstr "Reikia %(localSize)s disko vietos"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1723
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1726
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
 msgstr "%(downloadSize)s atsiųsti, %(localSize)s atlaisvintos vietos diske"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1725
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1728
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
 msgstr "%(downloadSize)s atsiųsti, %(localSize)s reikalaujamos vietos diske"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1743
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1746
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:61
 msgid "Remove"
 msgstr "Pašalinti"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1752
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1755
 msgid "Not installed"
 msgstr "Neįdiegta"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1773
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1776
 msgid "Reviews:"
 msgstr "Apžvalgos:"
 

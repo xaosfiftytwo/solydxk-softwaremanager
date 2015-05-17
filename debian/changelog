@@ -1,4 +1,10 @@
-solydxk-softwaremanager (7.6.7) debian; urgency=low
+solydxk-softwaremanager (7.6.9) debian; urgency=low
+
+  * Fix crash when package cannot be marked for deletion
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 11 May 2015 16:30:00 +0200
+
+solydxk-softwaremanager (7.6.8) debian; urgency=low
 
   * French translation
 

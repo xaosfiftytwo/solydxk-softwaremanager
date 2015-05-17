@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-06 15:39+0200\n"
+"POT-Creation-Date: 2015-05-11 16:33+0200\n"
 "PO-Revision-Date: 2014-01-14 23:01+0000\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <tg@li.org>\n"
@@ -24,7 +24,7 @@ msgid "No results"
 msgstr "Ягон натиҷа нест"
 
 #: ../usr/lib/solydxk/softwaremanager/search-apt:37
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1746
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1749
 msgid "Installed"
 msgstr "Насбшуда"
 
@@ -74,7 +74,7 @@ msgstr "Анборҳои нармафзори зеринро истифода м
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:208
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager-args.py:442
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1749
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1752
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:59
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:155
 msgid "Install"
@@ -348,24 +348,24 @@ msgid "Password:"
 msgstr "Парол:"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:813
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1690
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1701
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1693
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1704
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:196
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:388
 msgid "B"
 msgstr "B"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:815
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1692
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1703
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1695
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1706
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:198
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:390
 msgid "KB"
 msgstr "КБ"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:817
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1694
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1705
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1697
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1708
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:78
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:200
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:392
@@ -373,8 +373,8 @@ msgid "MB"
 msgstr "МБ"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:819
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1696
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1707
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1699
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1710
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:202
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:394
 msgid "GB"
@@ -424,7 +424,7 @@ msgstr "Вебсайт"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1035
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1047
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1712
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1715
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:691
 msgid "Reviews"
 msgstr "Тақризҳо"
@@ -552,7 +552,7 @@ msgid "Programming"
 msgstr "Барномасозӣ"
 
 #: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1352
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1769
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1772
 #, python-format
 msgid "%d reviews"
 msgstr "%d тақриз"
@@ -603,67 +603,67 @@ msgstr "Пешниҳод кардан"
 msgid "Your review"
 msgstr "Тақризи шумо"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1686
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1689
 #, python-format
 msgid "%s (removed)"
 msgstr "%s (тозашуда)"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1688
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1691
 #, python-format
 msgid "%s (installed)"
 msgstr "%s (насбшуда)"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1709
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1712
 msgid "Size:"
 msgstr "Андоза:"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1710
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1713
 msgid "Version:"
 msgstr "Версия:"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1711
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1714
 msgid "Impact on packages:"
 msgstr "Таъсирҳо ба бастаҳо:"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1713
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1716
 msgid "Your review:"
 msgstr "Тақризи шумо:"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1714
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1717
 msgid "Details"
 msgstr "Тафсилот"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1718
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1721
 #, python-format
 msgid "%(localSize)s of disk space freed"
 msgstr "%(localSize)s фазои диск холӣ шудааст"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1720
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1723
 #, python-format
 msgid "%(localSize)s of disk space required"
 msgstr "%(localSize)s фазои диск лозим аст"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1723
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1726
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space freed"
 msgstr ""
 "%(downloadSize)s боргирӣ мешавад, %(localSize)s фазои диск холӣ шудааст"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1725
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1728
 #, python-format
 msgid "%(downloadSize)s to download, %(localSize)s of disk space required"
 msgstr "%(downloadSize)s боргирӣ мешавад, %(localSize)s фазои диск лозим аст"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1743
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1746
 #: ../usr/lib/solydxk/softwaremanager/frontend.py:61
 msgid "Remove"
 msgstr "Тоза кардан"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1752
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1755
 msgid "Not installed"
 msgstr "Насбнашуда"
 
-#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1773
+#: ../usr/lib/solydxk/softwaremanager/softwaremanager.py:1776
 msgid "Reviews:"
 msgstr "Тақризҳо:"
 

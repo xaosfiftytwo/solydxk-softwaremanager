@@ -1676,7 +1676,10 @@ class Application():
         impacted_packages = []
         pkg = self.cache[package.name]
         if package.pkg.is_installed:
-            pkg.mark_delete(True, True)
+            try:
+                pkg.mark_delete(True, True)
+            except Exception, detail:
+                print detail
         else:
             pkg.mark_install()
 
